@@ -3,10 +3,6 @@ import Icon from  './assets/icon.png';
 import './style/Navbar.css'
 
 export default function Navbar() {
-    let [user, setUser] = useState(null);
-    if (0){
-        setUser(null)
-    }
     return (
         <div>
             <div className='flex justify-between p-7'>
@@ -39,9 +35,9 @@ export default function Navbar() {
                         </a>
                     </div>
                     <div className=' h-12 text-lg font-semibold bg-clip-text text-transparent -my-3 bg-blue-950 border px-4 rounded-xl border-blue-900 hover:bg-blue-700 hover:text-white hover:bg-clip-padding '>
-                        <button className='my-2'>
+                        <a href='/Login'  className='my-2'>
                             LOGIN
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>

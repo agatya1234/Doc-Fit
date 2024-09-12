@@ -3,6 +3,8 @@ import Navbar from "./Navbar"
 import ProductList from "./ProductList"
 import HRecord from './HRecord'
 
+
+
 export default function LandingPage() {
     return (
         <div className='h-screen'>
